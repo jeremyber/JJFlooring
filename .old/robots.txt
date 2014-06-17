@@ -1,0 +1,4 @@
+Sitemap: http://jjflooringpros.com/sitemap.xml
+
+User-agent: *
+Disallow: 
