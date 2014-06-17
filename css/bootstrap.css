@@ -5885,3 +5885,10 @@ legend {
 .pager .disabled > a {
   border-color: #dddddd;
 }
+
+
+/* Added one class for text on bare background */
+.background_text
+{
+	color:white;
+}
