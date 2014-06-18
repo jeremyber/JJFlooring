@@ -53,7 +53,7 @@ body
 <?php include('php/navbar.php'); ?>
 
 <div class="container">
-	<h1>Flooring</h1>
+	<h1><div class="background_text">Flooring</h1>
 	<div class="container" style="background-color:bisque;">
 		<div class="row">
 		<div style="text-align:left;" class="col-md-8">
