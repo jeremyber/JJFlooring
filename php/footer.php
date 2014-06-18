@@ -1,5 +1,5 @@
 <br><br><br><hr>
-<div class="container" style="color:lightseagreen;">
+<div class="container background_text">
 	<div class="hidden-xs hidden-sm">
 		<img align="middle" src="img/divider.png"></img>
 		<p style="text-align:center;">Website created by 
