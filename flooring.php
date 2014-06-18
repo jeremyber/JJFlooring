@@ -47,6 +47,9 @@ body
     margin-left: auto;
     margin-right: auto;
 	margin-top:5%;
+	padding: 1px;
+	border: 1px solid #021a40;
+	margin: 2%;
 }
 </style>
 <body>
