@@ -47,13 +47,16 @@ body
     margin-left: auto;
     margin-right: auto;
 	margin-top:5%;
+	padding: 1px;
+	border: 1px solid #021a40;
+	margin: 2%;
 }
 </style>
 <body>
 <?php include('php/navbar.php'); ?>
 
 <div class="container">
-	<h1>Flooring</h1>
+	<h1><div class="background_text">Flooring</h1>
 	<div class="container" style="background-color:bisque;">
 		<div class="row">
 		<div style="text-align:left;" class="col-md-8">

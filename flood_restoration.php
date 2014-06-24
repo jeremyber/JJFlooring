@@ -16,30 +16,15 @@
 	<link rel="icon" type="image/ico" href="img/favicon.ico">
 
 	
-	<script type="text/javascript" src="js/jquery.plugin.js"></script> 
-	<script type="text/javascript" src="js/jquery.imagecube.js"></script>
-	<script>
-	$('#defaultCube').imagecube(); 
-		 
-		$('#stopCube').toggle(function() { 
-				$(this).text('Start'); 
-				$('#defaultCube').imagecube('stop'); 
-			}, function() { 
-				$(this).text('Stop'); 
-				$('#defaultCube').imagecube('start'); 
-			} 
-		); 
-		 
-		$('#removeCube').toggle(function() { 
-				$(this).text('Re-attach'); 
-				$('#defaultCube').imagecube('destroy'); 
-			}, 
-			function() { 
-				$(this).text('Remove'); 
-				$('#defaultCube').imagecube(); 
-			} 
-		);
-  </script>
+	<!--FancyBox -->
+	<script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
+	<link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen"/>
+	<script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+	<link rel="stylesheet" href="css/jquery.fancybox-buttons.css" type="text/css" media="screen" />
+	<script type="text/javascript" src="js/jquery.fancybox-buttons.js"></script>
+	<script type="text/javascript" src="js/jquery.fancybox-media.js"></script>
+	<link rel="stylesheet" href="css/jquery.fancybox-thumbs.css" type="text/css" media="screen" />
+	<script type="text/javascript" src="js/jquery.fancybox-thumbs.js"></script>
 
 	<!-- Fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
@@ -53,6 +38,16 @@ body
 {
 	color: #333;
 }
+.sofancy
+{
+	 display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top:5%;
+	padding: 1px;
+	border: 1px solid #021a40;
+	margin: 2%;
+}
 </style>
 
 	<title>J&amp;J Flooring - Flood Restoration</title>
@@ -62,7 +57,7 @@ body
 <?php include('php/navbar.php'); ?>
 
 <div class="container">
-	<h1>Flood Restoration</h1>
+	<h1><div class="background_text">Flood Restoration</div></h1>
 	<div class="container" style="background-color:bisque;">
 			<div class="text-left" style="padding: 40px;">
 			<p>
@@ -78,19 +73,19 @@ body
 			<p class="text-left text-danger">For your convenience and at no extra cost,
 				we have <u><a href="contact_us.php">an emergency hotline</a></u> you can call for immediate services.</p>
 			</div>
-		<div class="container" style="margin-left:25%; padding-bottom:20px;">
-			<div id="defaultCube" style="width: 50%; height: 50%;"> 
-				<img src="img/flood-restoration-1.jpg" alt="Floor 1"/> 
-				<img src="img/flood-restoration-2.jpg" alt="Floor 2"/> 
-			</div>
+		<div class="container">
+			<a class="fancybox" rel="group" href="img/flood-restoration-1-big.jpg"><img class="img-responsive sofancy" src="img/flood-restoration-1.jpg" alt=""/></a>
+			<a class="fancybox" rel="group" href="img/flood-restoration-2-big.jpg"><img class="img-responsive sofancy" src="img/flood-restoration-2.jpg" alt=""/></a>
 		</div>
+		
 	
 </div>
 
 
 <?php include ('php/footer.php'); ?>
-<script>
-$("#defaultCube").imagecube();
-$("#defaultCube").imagecube({speed: 1000});
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
 </script>
 </body>

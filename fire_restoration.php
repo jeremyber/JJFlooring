@@ -48,13 +48,17 @@ body
 	 display: inline-block;
     margin-left: auto;
     margin-right: auto;
+	margin-top:5%;
+	padding: 1px;
+	border: 1px solid #021a40;
+	margin: 2%;
 }
 </style>
 <body>
 <?php include('php/navbar.php'); ?>
 
 <div class="container">
-	<h1>Fire Restoration</h1>
+	<h1><div class="background_text">Fire Restoration</div></h1>
 	<div class="container" style="background-color:bisque;">
 			<div class="text-left" style="padding: 40px;">
 			<p>

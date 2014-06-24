@@ -32,6 +32,8 @@ body
 {
 	color: #fff;
 }
+
+
 </style>
 <body>
 <?php include('php/navbar.php'); ?>
@@ -101,7 +103,7 @@ body
 </div>
 <div class="col-md-6">
 	<a href="mailto:Jay@jjflooringpros.com" target="_blank">
-		<h1 class="text-right" style="margin-left: 36%;"><span style="margin-top: 16px; color: darkcyan;" class="glyphicon glyphicon-send"></span>   E-mail us!</h1>
+		<h1 class="text-right" style="margin-left: 36%;"><span style="margin-top: 16px; color: darkcyan;" class="glyphicon glyphicon-send"></span><div class="background_text">  E-mail us!</div></h1>
 	</a>
 </div>
 

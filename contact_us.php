@@ -74,7 +74,7 @@ body
 <?php include('php/navbar.php'); ?>
 <div class="row">
 <div class="container-fluid">
-	<h1><span class="glyphicon glyphicon-earphone"></span> Contact Us</h1>
+	<h1><div class="background_text"><span class="glyphicon glyphicon-earphone"></span> Contact Us</div></h1>
 	<div class="container" style="text-align:left; background-color:bisque;">
 	<h3>Schedule Your Appointments Now!</h3>
 

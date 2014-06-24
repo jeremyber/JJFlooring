@@ -364,7 +364,7 @@ h6,
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   line-height: 1.1; 
-  color: lightseagreen;
+  color: black;
 }
 h1 small,
 h2 small, 
@@ -5884,4 +5884,11 @@ legend {
 }
 .pager .disabled > a {
   border-color: #dddddd;
+}
+
+
+/* Added one class for text on bare background */
+.background_text
+{
+	color:white;
 }
